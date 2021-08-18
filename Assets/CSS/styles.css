@@ -64,6 +64,15 @@ li.nav-item:hover
   background-size: cover;
   position: relative;
 }
+.headerpages {
+  min-height: 10vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
 #header-text {
   position: absolute;
   bottom: 0;
@@ -105,7 +114,8 @@ li.nav-item:hover
   margin: 10px;
 }
 .box1
-{
+{  
+  background-color: whitesmoke;
   -moz-box-shadow: 0 0 3px #ccc;
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 3px #ccc;
@@ -124,6 +134,7 @@ li.nav-item:hover
   font-weight: bolder;
 }
 #team-table h4 {
+  margin-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
