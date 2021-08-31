@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 
 .nav-link,
 .navbar-brand {
@@ -9,9 +9,14 @@
 .navbar-brand:hover {
   color: white;
 }
-
+#nav-btn {
+  color: white;
+}
 .nav-link {
   margin-left: 3rem;
+}
+#nav {
+  font-size: 1.5em;
 }
 .header {
   min-height: 100vh;
@@ -32,24 +37,28 @@
   flex-direction: column;
   text-align: center;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header-text h1 {
   margin-bottom: 40px;
   font-size: 50px;
+  font-weight: bold;
 }
 #header-text h2 {
   margin-bottom: 100px;
 }
-#about h1{
-  font-family: 'Montserrat', sans-serif;
+#about h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
 }
 #about p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 }
-#contact h1{
-  font-family: 'Montserrat', sans-serif;
+#contact h1 {
+  font-family: "Montserrat", sans-serif;
 }
 .contact-link {
   color: white;
@@ -58,6 +67,7 @@
 }
 
 #contact-div {
+  background-color: black;
   color: white;
 }
 #footer {
@@ -67,18 +77,30 @@
 #team-table h1 {
   margin-top: 40px;
   margin-bottom: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
 #team-table h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
-#team-table h5{
-  font-family: 'Roboto', sans-serif;
+#team-table h5 {
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: lighter;
 }
 .img {
   margin: 2em 0;
+}
+.gallery_img:hover {
+  transform: scale(1.2);
+}
+#events h1 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+#events p {
+  font-size: 1.2em;
 }
