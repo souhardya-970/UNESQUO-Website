@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
-
+nav {
+  z-index: 1000;
+}
+header {
+  z-index: 100;
+}
 .nav-link,
 .navbar-brand {
   color: white;
@@ -9,9 +14,7 @@
 .navbar-brand:hover {
   color: white;
 }
-#nav-btn {
-  color: white;
-}
+
 .nav-link {
   margin-left: 3rem;
 }
@@ -47,6 +50,9 @@
 }
 #header-text h2 {
   margin-bottom: 100px;
+}
+.navbar-toggler-icon {
+  color: white;
 }
 #about h1 {
   font-family: "Montserrat", sans-serif;
