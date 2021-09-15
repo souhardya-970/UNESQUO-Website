@@ -104,3 +104,7 @@
 #events p {
   font-size: 1.2em;
 }
+
+.event-detail {
+  margin: 15px 0;
+}
